@@ -16,12 +16,11 @@ public class Main {
     int res=0;
 
     while ((line = in.readLine()) != null) {
-      List<String> elephantList = Arrays.asList(line.split(","));
+      List<String> InputStringList = Arrays.asList(line.split(","));
       
       
-      for(int i=0;i<elephantList.size();i++){
-        
-        int temp = Integer.parseInt(elephantList.get(i).replaceAll("\\s+",""));
+      for(int i=0;i<InputStringList.size();i++){
+        int temp = Integer.parseInt(InputStringList.get(i).replaceAll("\\s+",""));
         v_in.addElement(temp);
       }
 
@@ -32,7 +31,6 @@ public class Main {
             for(int i=start;i<=end;i++){
               int a=(Integer)v_in.elementAt(i);
               acc+= a  ;
-            
             }
             if(acc>=res){
               res=acc;
