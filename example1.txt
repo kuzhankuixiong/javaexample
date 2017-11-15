@@ -1,0 +1,20 @@
+编程挑战说明:
+Write a program to determine the largest sum of contiguous integers in a sequence. 
+Contiguous means that the integers are adjacent to each other. Take -4, 2, -5, 0, 3 as an example.
+For this example the largest sum would be 3 and was obtained from the subsequence 0, 3.
+
+输入：
+Your program should read lines of text from standard input. Each line will contain a sequence of comma-separated integers.
+
+输出:
+For each line of input, print to standard output the sum of the largest contiguous subsequence in each sequence,
+one integer per line. In other words, of all the possible contiguous subsequences for a given set, 
+find the one with the largest sum, and print that sum.
+
+
+Test 1
+测试输入 -10, 2, 3, -2, 0, 5, -15
+预期输出 8
+Test 2
+测试输入 2,3,-2,-1,10
+预期输出 12
