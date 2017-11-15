@@ -1,0 +1,27 @@
+编程挑战说明:
+A person has taken a loan of $6000.00 for a fixed annual interest rate of 6% for 5 years with no down payment. 
+The monthly payment has been fixed at $116.00 for entire term of the loan. Here is the formula to calculate monthly fixed payment:
+(NOTE: See attachment)
+
+    P = (monthly rate * Loan amount) / (1 - (1+monthly interest rate)^-n) Here n is no of payment periods.
+Write a program to: 1. To calculate monthly payment 2. To print out monthly payment and total interest payment for the duration 
+of loan rounded to its nearest integer
+
+
+输入：
+6000~5~6~0
+
+
+输出:
+$116.00~$960
+
+
+Test 1
+测试输入  30000~10~6~5000
+预期输出  $277.55~$8306
+Test 2
+测试输入  25000~10~6~0
+预期输出  $277.55~$8306
+Test 3
+测试输入  5000~5~6~0
+预期输出  $96.66~$800
